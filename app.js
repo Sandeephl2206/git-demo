@@ -5,6 +5,7 @@ async function httpGetPlanets() {
     const response = await fetch("http://localhost:8000/planets")
     return await response.json();
   }
+  brtbeynbeytb 
   
   async function httpGetLaunches() {
     // TODO: Once API is ready. 
